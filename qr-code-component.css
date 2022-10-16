@@ -1,0 +1,97 @@
+
+
+/* SETTINGS */
+.colors {
+    /* WHITE */
+    color: hsl(0, 0%, 100%);
+    /* Light gray */
+    color: hsl(212, 45%, 89%);
+    /* Grayish blue */
+    color: hsl(220, 15%, 55%);
+    /* Dark blue */
+    color: hsl(218, 44%, 22%);
+}
+@font-face {
+    font-family: outfit-bold;
+    src: url(./Font-Outfit/static/Outfit-Bold.ttf);
+    font-size: 15px;
+    font-weight: 700;
+}
+@font-face {
+    font-family: outfit-regular;
+    src: url(./Font-Outfit/static/Outfit-Regular.ttf);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* CHALLENGE */
+
+body {
+    /* border: 1px solid black; */
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#challenge {
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 50px rgb(211, 203, 203);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* IMAGE */
+img {
+    /* border: 1px solid black; */
+    background-image: linear-gradient(#f69d3c, #3f87a6);
+    width: 290px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* FONTS */
+.fonts {
+    /* border: 1px solid black; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+h1 {
+    /* border: 1px solid blue; */
+    width: 250px;
+    height: 50px;
+    color: hsl(218, 44%, 22%);
+    font-family: outfit-bold;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+p {
+    /* border: 1px solid red; */
+    height: 50px;
+    color: hsl(220, 15%, 55%);
+    font-family: outfit-regular;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 45px;
+}
